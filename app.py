@@ -7,7 +7,7 @@ model = load_learner("models/ball-classifier.pkl")
 
 def main():
     st.title("Ball classification")
-    st.text("This model can classify football, volleyball, rugby ball and tennis balls")
+    st.text("This model can classify football, volleyball and tennis balls")
 
     file = st.file_uploader("You can upload a file", ["jpg", "jpeg", "png", "webp"])
     if not file:
