@@ -1,0 +1,83 @@
+# Dataset
+OIDv4_ToolKit/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# pyenv
+.python-version
+
+# Jupyter Notebook metadata
+*.ipynb-meta
+
+# SQLite database
+*.sqlite3
+
+# Sensitive files
+*.env
+.env.*
+secrets.json
+
+# Ignore data files
+*.csv
+*.tsv
+*.dat
+*.log
+
+# Ignore model files
+*.h5
+*.ckpt
+*.pth
+*.onnx
+
+# Ignore outputs
+outputs/
+results/
+*.out
+*.plot
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
